@@ -1,0 +1,54 @@
+.header{
+  background-color:rgba(136, 136, 136, 0.596);
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  
+  overflow: hidden;
+  
+
+  font-family:Georgia, serif;
+
+}
+
+li{
+  list-style-type: none;
+  padding: 0%;
+}
+.dir:link{
+  text-decoration: none;
+  float: right;
+  list-style-type: none;
+  text-align: center;
+  padding: 1%;
+  
+  color: whitesmoke;
+
+
+}
+
+.dir:visited,.mdir:visited{
+  color: whitesmoke;
+}
+
+.dir:hover{
+  border-bottom: 1px solid whitesmoke;
+  
+}
+
+.mdir{
+  position: relative;
+  animation: mymove 5s 1;
+  
+}
+
+@keyframes mymove {
+  from {left: 100px;}
+  to {left: 0px;}
+}
+.mdir:link{
+  text-decoration: none;
+  float:left;
+  font-size: 3vw;
+  font-weight: bold;
+  color: whitesmoke;
+}

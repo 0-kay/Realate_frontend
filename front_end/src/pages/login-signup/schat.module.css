@@ -1,0 +1,20 @@
+.dir:link{
+    text-decoration: none;
+    float: right;
+    list-style-type: none;
+    text-align: center;
+    padding: 1%;
+    
+    color: whitesmoke;
+  
+  
+  }
+  
+  .dir:visited,.mdir:visited{
+    color: whitesmoke;
+  }
+  
+  .dir:hover{
+    border-bottom: 1px solid whitesmoke;
+    
+  }

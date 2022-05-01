@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(216, 215, 215);
+    
+}
+
+.major{
+    color: grey;
+}
+.who{
+    
+    flex: 1; 
+    text-align: right;
+}
+.last{
+    display: flex;
+}
+section{
+    
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.su:link,.su:visited{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
